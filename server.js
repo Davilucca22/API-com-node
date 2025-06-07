@@ -25,7 +25,6 @@ app.set('views','./src/views')
 //indica a engine instalada(ejs)
 app.set('view engine','ejs')
 
-
 //quando a apliçao passar pelo status "pronto", o servidor carrega a pagina
 app.on('pronto', () => {
     app.listen(3000, () => { //porta 3000
